@@ -13,6 +13,20 @@ import_tables:
   - cn_dicts/others   # 一些杂项 
   - cn_dicts/luna_pinyin.sogou   # 搜狗大词库
   
+  # https://github.com/LufsX/rime/blob/master/extended.dict.yaml
+  - cn_dicts/simp # 最小拼音词典
+  - cn_dicts/thuocl_animal # 动物
+  - cn_dicts/thuocl_caijing # 财经
+  - cn_dicts/thuocl_food # 饮食
+  - cn_dicts/thuocl_idiom # 成语俗语
+  - cn_dicts/thuocl_IT # IT
+  - cn_dicts/thuocl_medical # 医学
+  - cn_dicts/thuocl_renmingdiming # 人名地名
+  - cn_dicts/simp-ext # 原字表中除单字外部分
+  - cn_dicts/sogou_net # 网络流行语
+  # emoji 中的词库
+  - cn_dicts/emoji
+  
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - cn_dicts/mydict
 ...
